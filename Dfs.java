@@ -1,4 +1,12 @@
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
+enum color {
+	White, Grey, Black;
+}
+
+public class DFS {
 	int v;
 	color id[];
 	LinkedList<LinkedList<Integer>> arr;
@@ -46,3 +54,4 @@
 		d.addEdge(3, 5);
 		d.dfs(0);
 		}
+}
